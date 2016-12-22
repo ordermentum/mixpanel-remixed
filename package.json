@@ -1,6 +1,6 @@
 {
   "name": "mixpanel-remixed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redux Mixpanel Middleware",
   "repository": "git@github.com:ordermentum/mixpanel-remixed.git",
   "main": "lib/index.js",
@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "babel src/ -d lib/",
+    "prepublish": "npm run compile",
     "test": "NODE_ENV=test ./node_modules/.bin/nyc npm run spec",
     "spec": "./node_modules/.bin/_mocha -R spec ./test/test_helper.js --recursive test/**/*",
     "lint": "./node_modules/.bin/eslint src test",
