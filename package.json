@@ -1,6 +1,6 @@
 {
   "name": "mixpanel-remixed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux Mixpanel Middleware",
   "repository": "git@github.com:ordermentum/mixpanel-remixed.git",
   "main": "lib/index.js",
